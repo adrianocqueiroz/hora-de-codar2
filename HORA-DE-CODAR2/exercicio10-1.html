@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 10 | Adriano Queiroz</title>
+</head>
+
+<body>
+    <script>
+        var sexo = parseInt(prompt("Por gentileza, digite em número seu sexo 1-Feminino e 2-Masculino."))
+        var altura = parseInt(prompt ("Digite sua altura"))
+
+        if(sexo == 1){
+            var pesoM = 62.1
+            var calculoM = pesoM/altura
+            alert("Seu peso ideal seria " + calculoM)
+        }
+
+        else if(sexo == 2){
+            var pesoH = 72.7
+            var calculoH = pesoH/altura
+            alert("Seu peso ideal seria " + calculoH)
+        }
+
+        alert("Na dúvida, consulte um médico.")
+
+    </script>
+</body>
+</html>

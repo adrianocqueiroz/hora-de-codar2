@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 11 | Adriano Queiroz</title>
+</head>
+
+<body>
+    <script>
+        let valor1 = parseInt(prompt("Por gentileza, digite um número."))
+        let valor2 = parseInt(prompt("Por gentileza, digite outro número."))
+
+        var escolha = parseInt(prompt("Selecione uma opção 1.Adição, 2.Subtração, 3.Divisão, 4.Multiplicação"))
+
+        if(escolha === 1){
+            adicao();
+        }
+
+        else if(escolha === 2){
+            subtracao();
+        }
+
+        else if(escolha === 3){
+            divisao();
+        }
+
+        else if(escolha === 4){
+            multiplicacao();
+        }
+
+        function adicao(){
+            alert("A conta " + valor1 + " + " + valor2 + " = " + (valor1+valor2))
+        }
+
+        function subtracao(){
+            alert("A conta " + valor1 + " - " + valor2 + " = " + (valor1-valor2))
+        }  
+
+        function divisao(){
+            alert("A conta " + valor1 + " : " + valor2 + " = " + (valor1/valor2))
+        }
+
+        function multiplicacao(){
+            alert("A conta " + valor1 + " x " + valor2 + " = " + (valor1*valor2))
+        }
+
+        alert("Obrigado por usar o programa. Sempre será bem vindo!")
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 10 | Adriano Queiroz</title>
+</head>
+
+<body>
+    <script>
+        var sexo = prompt("Por gentileza, digite seu sexo 1-Feminino e 2-Masculino.")
+        var peso = prompt ("Digite seu peso")
+        var altura = prompt ("Digite sua altura")
+
+        var calculo = peso/(altura*altura)
+
+        if(calculo < 18.5){
+            alert("O cálculo do seu IMC é de " + calculo + " . Sua classificação é de Magreza. Consulte o médico.")
+        }
+
+        else if(calculo < 24.90){
+            alert("O cálculo do seu IMC é de " + calculo + " . Sua classificação é Normal.")
+        }
+
+        else if(calculo < 29.90){
+            alert("O cálculo do seu IMC é de " + calculo + " . Sua classificação é de Sobrepeso. Consulte o médico.")
+        }
+
+        else if(calculo > 30){
+            alert("O cálculo do seu IMC é de " + calculo + " . Sua classificação é de Obesidade. Consulte o médico.")
+        }
+
+        alert("Você deveria ter em média " + calculo2)
+
+
+    </script>
+</body>
+</html>
